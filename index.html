@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Rhythm and Rumble | Best Hostel in Canggu, Bali</title>
+    <meta name="description" content="A high end boutique capsule hostel in the absolute heart of Canggu, with an emphasis on health, fitness, MMA, surfing and the outdoors of our stunning Island." />
+    <meta name="keywords" content="Rhythm and Rumble, Best hostel in Canggu, Canggu hostel Bali, MMA hostel Bali, Surf hostel Canggu, Echo Beach hostel, boutique capsule hostel Canggu" />
+    
+    <!-- Open Graph / Meta Ads -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Rhythm & Rumble | Best Hostel in Canggu, Bali" />
+    <meta property="og:description" content="A unique boutique hostel concept for fitness conscious travellers. MMA, Surfing, Sauna, Cold Plunge & Pool." />
+    <meta property="og:image" content="/images/opt/imgi_2_surf.jpg" />
+    <meta property="og:url" content="https://rhythmandrumble.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts: Montserrat & Cabin (Official R&R Fonts) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/logo-black.png" />
+
+    <!-- Cloudbeds Ads UTM Decorator (Forwarding UTMs from paid ads to booking engine) -->
+    <script>
+      (function() {
+        var incoming = new URLSearchParams(window.location.search);
+        var keep = ['gclid','gbraid','wbraid','utm_source','utm_medium','utm_campaign','utm_term','utm_content','fbclid'];
+        var toPass = new URLSearchParams();
+        keep.forEach(function(k){ if (incoming.has(k)) toPass.set(k, incoming.get(k)); });
+        if (!toPass.toString()) return;
+        function decorate() {
+          document.querySelectorAll('a[href*="cloudbeds.com"]').forEach(function(a){
+            try {
+              var url = new URL(a.href);
+              toPass.forEach(function(v,k){ url.searchParams.set(k,v); });
+              a.href = url.toString();
+            } catch(e){}
+          });
+        }
+        document.addEventListener('DOMContentLoaded', decorate);
+        setTimeout(decorate, 1500);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
