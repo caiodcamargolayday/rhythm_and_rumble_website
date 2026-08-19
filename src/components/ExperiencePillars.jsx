@@ -38,7 +38,7 @@ export default function ExperiencePillars({ onOpenBookingModal, onOpenLightbox }
           </h2>
           <p className="section-subtitle">
             Rhythm & Rumble is Bali’s first all-in-one lifestyle retreat combining pro combat sports, 
-            world-class surf breaks, and sub-zero contrast recovery under one roof.
+            world-class surf breaks, and 10-12°C cold plunge contrast recovery under one roof.
           </p>
         </div>
 

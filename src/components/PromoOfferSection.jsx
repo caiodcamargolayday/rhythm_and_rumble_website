@@ -43,7 +43,7 @@ export default function PromoOfferSection({ onOpenLightbox }) {
             style={{
               position: 'relative',
               width: '100%',
-              maxWidth: '560px',
+              maxWidth: '480px',
               margin: '0 auto 36px auto',
               cursor: 'pointer'
             }}
@@ -51,7 +51,7 @@ export default function PromoOfferSection({ onOpenLightbox }) {
           >
             <img
               src="/images/R&R Ads.jpg"
-              alt="Stay at R&R This Summer - Get 10% Off with Promo Code RUMBLE10"
+              alt="Stay at R&R This Summer - Work, Vacation, Recover - Get 10% Off with Promo Code RUMBLE10"
               style={{
                 width: '100%',
                 height: 'auto',
@@ -99,7 +99,7 @@ export default function PromoOfferSection({ onOpenLightbox }) {
               <button
                 onClick={handleCopyCode}
                 style={{
-                  background: copied ? '#22c55e' : 'rgba(255,208,0,0.15)',
+                  background: copied ? '#22c55e' : 'rgba(229, 168, 35, 0.18)',
                   border: copied ? '1px solid #22c55e' : '1px solid var(--rr-gold)',
                   color: copied ? '#ffffff' : 'var(--rr-gold)',
                   padding: '6px 12px',

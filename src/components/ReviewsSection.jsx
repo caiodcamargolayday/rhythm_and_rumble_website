@@ -22,7 +22,7 @@ const GOOGLE_REVIEWS = [
     tag: "Martial Arts & Muay Thai",
     rating: 5,
     date: "Recent Google Review",
-    review: "10/10 stay. The coaching staff for boxing and Muay Thai are world-class professionals. After a hard session, jumping into the Finnish sauna and sub-zero ice bath is heavenly. Super clean rooms and incredible staff."
+    review: "10/10 stay. The coaching staff for boxing and Muay Thai are world-class professionals. After a hard session, jumping into the Finnish sauna and 10-12°C cold plunge ice bath is heavenly. Super clean rooms and incredible staff."
   },
   {
     author: "Chloe K.",
@@ -54,7 +54,7 @@ export default function ReviewsSection() {
         {/* Header with Google Badge */}
         <div style={{ textAlign: 'center', maxWidth: '840px', margin: '0 auto 48px auto' }}>
           {/* Google 4.9 Stars Badge */}
-          <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: 'rgba(255, 208, 0, 0.1)', border: '1px solid rgba(255, 208, 0, 0.3)', padding: '6px 16px', borderRadius: '9999px', marginBottom: '16px' }}>
+          <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: 'rgba(229, 168, 35, 0.12)', border: '1px solid rgba(229, 168, 35, 0.35)', padding: '6px 16px', borderRadius: '9999px', marginBottom: '16px' }}>
             {/* Google "G" Icon */}
             <svg width="18" height="18" viewBox="0 0 24 24">
               <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />

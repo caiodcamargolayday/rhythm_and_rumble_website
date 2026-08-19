@@ -12,7 +12,7 @@ const VALUE_PILLARS = [
   {
     icon: Award,
     title: "PROFESSIONAL INSTRUCTORS",
-    desc: "All our instructors are qualified and experienced. Rest assured you will only get coached by the best in Muay Thai, Boxing & Yoga."
+    desc: "All our instructors are qualified and experienced. Rest assured you will only get coached by the best in Muay Thai & Boxing."
   },
   {
     icon: MapPin,
@@ -22,12 +22,12 @@ const VALUE_PILLARS = [
   {
     icon: Dumbbell,
     title: "MODERN EQUIPMENT",
-    desc: "From Adidas boxing gear and martial arts bags to fresh Yoga mats, high-speed WiFi, and air-conditioned suites."
+    desc: "From Adidas boxing gear and martial arts heavy bags to high-speed WiFi and air-conditioned suites."
   },
   {
     icon: Heart,
     title: "TOTAL WELLNESS & RECOVERY",
-    desc: "State-of-the-art Finnish cedar sauna, sub-zero cold plunge ice baths, and healthy superfood nutrition at our cafe."
+    desc: "State-of-the-art Finnish cedar sauna, 10-12°C cold plunge ice baths, and healthy superfood nutrition at our cafe."
   },
   {
     icon: Users,
@@ -127,7 +127,7 @@ export default function WhyChooseSection() {
                     width: '60px',
                     height: '60px',
                     borderRadius: '50%',
-                    background: 'rgba(255, 208, 0, 0.12)',
+                    background: 'rgba(229, 168, 35, 0.15)',
                     border: '1px solid var(--rr-gold)',
                     display: 'flex',
                     alignItems: 'center',

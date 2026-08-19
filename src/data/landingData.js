@@ -24,7 +24,7 @@ export const MARQUEE_IMAGES = [
   "/images/space 02.jpg",
   "/images/private room.jpg",
   "/images/rooms.jpg",
-  "/images/yoga.jpg",
+  "/images/muay thai 03.jpg",
   "/images/sauna 02.JPG",
   "/images/muay thai 02.jpg"
 ];
@@ -32,7 +32,7 @@ export const MARQUEE_IMAGES = [
 export const VIBE_SLIDES = [
   {
     src: "/images/cold plunge.jpg",
-    title: "SUB-ZERO COLD PLUNGE",
+    title: "10-12°C COLD PLUNGE",
     subtitle: "Contrast therapy for complete muscular recovery and wellness"
   },
   {

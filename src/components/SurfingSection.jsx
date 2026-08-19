@@ -59,7 +59,7 @@ export default function SurfingSection({ onOpenLightbox }) {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
               {SURF_INCLUSIONS.map((item, idx) => (
                 <div key={idx} style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                  <div style={{ width: '20px', height: '20px', borderRadius: '50%', background: 'rgba(255,208,0,0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                  <div style={{ width: '20px', height: '20px', borderRadius: '50%', background: 'rgba(229, 168, 35, 0.18)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                     <Check size={13} color="var(--rr-gold)" />
                   </div>
                   <span style={{ color: 'var(--rr-gray-100)', fontSize: '0.88rem' }}>{item}</span>

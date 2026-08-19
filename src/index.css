@@ -4,11 +4,12 @@
    ========================================================= */
 
 :root {
-  /* Brand Accent: Official R&R Golden Yellow / Amber */
-  --rr-gold: #FFD000;
+  /* Brand Accent: Official R&R Mustard Yellow */
+  --rr-gold: #E5A823;
+  --gold-primary: var(--rr-gold);
   --rr-gold-hover: #FFFFFF;
   --rr-gold-text: #000000;
-  --rr-gold-glow: rgba(255, 208, 0, 0.4);
+  --rr-gold-glow: rgba(229, 168, 35, 0.4);
   --rr-gold-line: #C5A059;
   
   --rr-orange: #FF7012;
@@ -31,7 +32,7 @@
   
   /* Borders */
   --rr-border-subtle: rgba(255, 255, 255, 0.12);
-  --rr-border-gold: rgba(255, 208, 0, 0.5);
+  --rr-border-gold: rgba(229, 168, 35, 0.5);
   --rr-frame-border: 4px solid #FFFFFF;
   
   /* Typography */
@@ -530,12 +531,14 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.8;
   font-family: var(--font-body);
   font-weight: 400;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
   .about-rr-text {
     font-size: 1.05rem;
     line-height: 1.85;
+    text-align: center;
   }
 }
 
@@ -549,6 +552,7 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center;
   padding: 70px 0 50px 0;
   overflow: hidden;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -578,12 +582,15 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.92rem;
   line-height: 1.75;
   font-family: var(--font-body);
+  text-align: center;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {
   .facilities-plant-text {
     font-size: 1rem;
     line-height: 1.8;
+    text-align: center;
   }
 }
 
@@ -695,7 +702,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 52px;
   height: 52px;
   border-radius: 50%;
-  background: rgba(255, 208, 0, 0.12);
+  background: rgba(229, 168, 35, 0.12);
   border: 1.5px solid var(--rr-gold);
   display: flex;
   align-items: center;

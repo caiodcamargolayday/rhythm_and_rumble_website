@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import HeroSection from './components/HeroSection';
 import ThreePillars from './components/ThreePillars';
 import MarqueeStrip from './components/MarqueeStrip';
@@ -16,10 +16,15 @@ import FinalCta from './components/FinalCta';
 import StickyBookingBar from './components/StickyBookingBar';
 import PhotoLightbox from './components/PhotoLightbox';
 import Footer from './components/Footer';
+import { initMetaTracking } from './utils/metaTracking';
 
 export default function App() {
   const [lightboxImages, setLightboxImages] = useState(null);
   const [lightboxIndex, setLightboxIndex] = useState(0);
+
+  useEffect(() => {
+    initMetaTracking();
+  }, []);
 
   const handleOpenLightbox = (images, index = 0) => {
     setLightboxImages(images);
@@ -51,7 +56,7 @@ export default function App() {
       {/* Rich Facilities & Lifestyle Showcases (Food & Cafe, MMA & Gym, Sauna & Cold Plunge, Hostel Life Carousels) */}
       <FacilitiesShowcase onOpenLightbox={handleOpenLightbox} />
 
-      {/* Electric Yellow Combat Sports & Boxing Training Section (Harmonic Accent with High-Contrast Dark Text) */}
+      {/* Mustard Yellow Combat Sports & Boxing Training Section (Harmonic Accent with High-Contrast Dark Text) */}
       <MmaYellowSection onOpenLightbox={handleOpenLightbox} />
 
       {/* Dedicated Surfing Section (Daily Guided Surfaris & Lessons) */}

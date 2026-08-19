@@ -24,20 +24,20 @@ const FEATURE_BLOCKS = [
     ]
   },
   {
-    id: "gym-yoga",
-    title: "GYM & YOGA STUDIOS",
-    subtitle: "World-Class Martial Arts & Recovery",
-    desc: "Both our combat sports gym and Yoga studio are supremely well equipped with the very best gear, be it ADIDAS gloves, wraps and bags or mats, bolsters, blocks and straps for the Yoga, we have it all. Both have been specifically designed to be bright and airy throughout the day to ensure you can exercise in comfort and push yourself physically without being held back by your surroundings.",
+    id: "gym-combat",
+    title: "GYM & COMBAT SPORTS FACILITY",
+    subtitle: "World-Class Martial Arts & Fitness",
+    desc: "Our combat sports gym and fitness facility are supremely well equipped with the very best gear, including ADIDAS gloves, wraps, heavy bags, pads, and strength equipment. Specifically designed to be bright and airy throughout the day to ensure you can exercise in comfort and push yourself physically without being held back by your surroundings.",
     benefits: [
       "Full Boxing Ring & Heavy Bag Station",
       "Certified Champion Muay Thai & Boxing Trainers",
-      "Daily Morning Yoga & Mobility Sessions",
+      "Daily Boxing & Muay Thai Conditioning Sessions",
       "Bright, Airy Studio with Free Weights & Equipment"
     ],
     images: [
       "/images/muay thai 03.jpg",
       "/images/muay thai 02.jpg",
-      "/images/yoga.jpg",
+      "/images/space 02.jpg",
       "/images/muay thai.jpg"
     ]
   },
@@ -45,10 +45,10 @@ const FEATURE_BLOCKS = [
     id: "sauna-plunge",
     title: "SAUNA & COLD PLUNGE",
     subtitle: "Contrast Therapy for Complete Wellness",
-    desc: "Enjoy the benefits of our Finnish cedar sauna, designed to relax and detoxify the body, and a sub-zero cold plunge, which helps reduce inflammation, speeds muscular recovery, and boosts immunity, creating a complete wellness experience.",
+    desc: "Enjoy the benefits of our Finnish cedar sauna, designed to relax and detoxify the body, and a 10-12°C cold plunge ice bath, which helps reduce inflammation, speeds muscular recovery, and boosts immunity, creating a complete wellness experience.",
     benefits: [
       "Traditional High-Heat Finnish Cedar Sauna",
-      "Sub-Zero Chilled Cold Plunge Ice Baths",
+      "Chilled 10-12°C Cold Plunge Ice Baths",
       "Accelerates Muscle Recovery & Reduces Soreness",
       "Boosts Mental Focus, Endorphins & Circulation"
     ],
@@ -254,7 +254,7 @@ export default function FacilitiesShowcase({ onOpenLightbox }) {
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '10px' }}>
                     {block.benefits.map((b, i) => (
                       <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '0.88rem', color: 'var(--rr-gray-100)' }}>
-                        <div style={{ width: '18px', height: '18px', borderRadius: '50%', background: 'rgba(255,208,0,0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                        <div style={{ width: '18px', height: '18px', borderRadius: '50%', background: 'rgba(229, 168, 35, 0.18)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                           <Check size={12} color="var(--rr-gold)" />
                         </div>
                         <span>{b}</span>

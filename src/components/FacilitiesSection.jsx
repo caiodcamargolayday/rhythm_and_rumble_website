@@ -13,7 +13,8 @@ import {
   Bath,
   GlassWater,
   Users,
-  Sun
+  Sun,
+  ArrowRight
 } from 'lucide-react';
 import { BRAND } from '../data/landingData';
 
@@ -36,10 +37,10 @@ const THREE_FACILITIES = [
 const CLOUDBEDS_FACILITIES = [
   { icon: Dumbbell, label: "Fitness Center & Muay Thai" },
   { icon: Flame, label: "Finnish Sauna" },
-  { icon: Sparkles, label: "Sub-Zero Cold Plunge" },
+  { icon: Sparkles, label: "10-12°C Cold Plunge" },
   { icon: Waves, label: "Swimming Pool & Sun Deck" },
   { icon: Waves, label: "Surfing Lessons & Rentals" },
-  { icon: Sparkles, label: "Yoga Classes" },
+  { icon: Dumbbell, label: "Combat Sports & Boxing Gear" },
   { icon: Coffee, label: "Cafe, Bar & Restaurant" },
   { icon: Wifi, label: "High-Speed WiFi" },
   { icon: Wind, label: "Air Conditioning" },
@@ -58,13 +59,29 @@ export default function FacilitiesSection() {
       <div className="facilities-plant-overlay"></div>
 
       {/* Facilities Header Text over Plant Leaves */}
-      <div className="facilities-plant-content">
-        <h2 className="section-heading-main" style={{ color: '#FFFFFF', letterSpacing: '0.12em' }}>
+      <div className="facilities-plant-content" style={{ textAlign: 'center' }}>
+        <h2 
+          className="section-heading-main" 
+          style={{ 
+            color: '#FFFFFF', 
+            letterSpacing: '0.12em',
+            textAlign: 'center',
+            marginLeft: 'auto',
+            marginRight: 'auto'
+          }}
+        >
           FACILITIES
         </h2>
-        <div className="gold-divider"></div>
+        <div className="gold-divider" style={{ margin: '14px auto 22px auto' }}></div>
 
-        <p className="facilities-plant-text">
+        <p 
+          className="facilities-plant-text"
+          style={{
+            textAlign: 'center',
+            marginLeft: 'auto',
+            marginRight: 'auto'
+          }}
+        >
           From vigorous workouts to blissful relaxation, we have it all. Power through a gym session, sharpen your skills in Muay Thai or boxing classes, recharge with a nourishing meal or drink at our café & bar, cool off with a dip in the pool, or unwind in the sauna and cold plunge. Every detail is designed with the fitness-conscious traveler in mind. At Rhythm & Rumble Boutique Hostel, we’ve created an experience so complete, you’ll want to come back again and again.
         </p>
       </div>
@@ -109,6 +126,19 @@ export default function FacilitiesSection() {
             </div>
           );
         })}
+      </div>
+
+      {/* Book Now Button Below Facilities */}
+      <div style={{ textAlign: 'center', marginTop: '55px', position: 'relative', zIndex: 10 }}>
+        <a
+          href={BRAND.cloudbedsUrl}
+          target="_self"
+          className="btn-book btn-book-lg"
+          style={{ minWidth: '240px' }}
+        >
+          <span>BOOK NOW</span>
+          <ArrowRight size={18} />
+        </a>
       </div>
     </section>
   );

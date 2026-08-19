@@ -261,7 +261,7 @@ Please confirm availability and booking details!`;
                   <div style={{ fontSize: '0.8rem', color: '#d1d5db', lineHeight: 1.4 }}>
                     • 1x Free Daily Muay Thai / Boxing class pass<br />
                     • 1x Free Signature Welcome Drink<br />
-                    • Unlimited Sauna & Sub-Zero Ice Bath
+                    • Unlimited Sauna & 10-12°C Ice Bath
                   </div>
                 </div>
               </div>

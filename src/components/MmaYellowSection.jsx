@@ -5,7 +5,7 @@ const MMA_IMAGES = [
   "/images/muay thai.jpg",
   "/images/muay thai 02.jpg",
   "/images/muay thai 03.jpg",
-  "/images/yoga.jpg"
+  "/images/space 02.jpg"
 ];
 
 export default function MmaYellowSection({ onOpenLightbox }) {
@@ -22,7 +22,7 @@ export default function MmaYellowSection({ onOpenLightbox }) {
   return (
     <section 
       style={{ 
-        backgroundColor: '#F3E83B', 
+        backgroundColor: 'var(--rr-gold, #E5A823)', 
         padding: '90px 0',
         color: '#111111',
         position: 'relative'
@@ -137,7 +137,7 @@ export default function MmaYellowSection({ onOpenLightbox }) {
                       width: i === activeSlide ? '18px' : '6px',
                       height: '6px',
                       borderRadius: '9999px',
-                      background: i === activeSlide ? '#F3E83B' : 'rgba(255,255,255,0.5)',
+                      background: i === activeSlide ? 'var(--rr-gold, #E5A823)' : 'rgba(255,255,255,0.5)',
                       transition: 'all 0.3s ease'
                     }}
                   />
